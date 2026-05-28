@@ -1,0 +1,8 @@
+{
+  "rest-client.rememberCookiesForSubsequentRequests": false,
+  "rest-client.environmentVariables": {
+    "local": {
+      "serverUrl": "http://localhost:8000"
+    }
+  }
+}

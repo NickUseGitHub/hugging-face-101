@@ -14,6 +14,11 @@ $ brew install pyenv
 $ brew install uv
 ```
 
+##### UV install packages
+```
+uv sync
+```
+
 #### Create python virtual environment
 ##### Use pyenv to create python version in your project's folder
 ```
@@ -25,4 +30,10 @@ $ pyenv activate <ENV_NAME> # to activate virtual envs
 ##### Use these command to create venv for project's virtual environments
 ```
 $ python -m venv .venv
+```
+
+
+### To run webserver via fastAPI
+```
+$ uv run fastapi dev src/main.py --app app 
 ```
