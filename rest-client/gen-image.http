@@ -1,0 +1,1 @@
+GET {{serverUrl}}/generate?prompt=red dog HTTP/1.1
